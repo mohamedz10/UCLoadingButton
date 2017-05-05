@@ -107,6 +107,7 @@
 				TargetAttributes = {
 					D9045E961EBC5FA1004967AC = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = U76D6E368Z;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -274,9 +275,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U76D6E368Z;
 				INFOPLIST_FILE = UCLoadingButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = be.BD.UCLoadingButton;
+				PRODUCT_BUNDLE_IDENTIFIER = be.mohamedz.UCLoadingButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -286,9 +288,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U76D6E368Z;
 				INFOPLIST_FILE = UCLoadingButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = be.BD.UCLoadingButton;
+				PRODUCT_BUNDLE_IDENTIFIER = be.mohamedz.UCLoadingButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
