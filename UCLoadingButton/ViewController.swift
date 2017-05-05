@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var loadingButton: UCLoadingButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +22,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func click(_ sender: Any) {
+        self.loadingButton.isLoading ? self.loadingButton.hideLoading() : self.loadingButton.showLoading()
+    }
 
 }
 
